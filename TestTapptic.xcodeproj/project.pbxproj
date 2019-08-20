@@ -12,6 +12,10 @@
 		F2CBE3652309CD7A00EBDF28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CBE3632309CD7A00EBDF28 /* Main.storyboard */; };
 		F2CBE3672309CD7B00EBDF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CBE3662309CD7B00EBDF28 /* Assets.xcassets */; };
 		F2CBE36A2309CD7B00EBDF28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CBE3682309CD7B00EBDF28 /* LaunchScreen.storyboard */; };
+		F2CBE3722309CD9900EBDF28 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CBE3712309CD9900EBDF28 /* Tool.swift */; };
+		F2CBE3742309D26100EBDF28 /* RunningToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CBE3732309D26100EBDF28 /* RunningToolsViewController.swift */; };
+		F2CBE3772309DD8B00EBDF28 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CBE3752309DD8B00EBDF28 /* MyCustomCell.swift */; };
+		F2CBE3782309DD8B00EBDF28 /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CBE3762309DD8B00EBDF28 /* MyCustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F2CBE3662309CD7B00EBDF28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2CBE3692309CD7B00EBDF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2CBE36B2309CD7B00EBDF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2CBE3712309CD9900EBDF28 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		F2CBE3732309D26100EBDF28 /* RunningToolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningToolsViewController.swift; sourceTree = "<group>"; };
+		F2CBE3752309DD8B00EBDF28 /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
+		F2CBE3762309DD8B00EBDF28 /* MyCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				F2CBE3662309CD7B00EBDF28 /* Assets.xcassets */,
 				F2CBE3682309CD7B00EBDF28 /* LaunchScreen.storyboard */,
 				F2CBE36B2309CD7B00EBDF28 /* Info.plist */,
+				F2CBE3712309CD9900EBDF28 /* Tool.swift */,
+				F2CBE3732309D26100EBDF28 /* RunningToolsViewController.swift */,
+				F2CBE3752309DD8B00EBDF28 /* MyCustomCell.swift */,
+				F2CBE3762309DD8B00EBDF28 /* MyCustomCell.xib */,
 			);
 			path = TestTapptic;
 			sourceTree = "<group>";
@@ -124,6 +136,7 @@
 			files = (
 				F2CBE36A2309CD7B00EBDF28 /* LaunchScreen.storyboard in Resources */,
 				F2CBE3672309CD7B00EBDF28 /* Assets.xcassets in Resources */,
+				F2CBE3782309DD8B00EBDF28 /* MyCustomCell.xib in Resources */,
 				F2CBE3652309CD7A00EBDF28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2CBE3742309D26100EBDF28 /* RunningToolsViewController.swift in Sources */,
+				F2CBE3772309DD8B00EBDF28 /* MyCustomCell.swift in Sources */,
+				F2CBE3722309CD9900EBDF28 /* Tool.swift in Sources */,
 				F2CBE3622309CD7A00EBDF28 /* ViewController.swift in Sources */,
 				F2CBE3602309CD7A00EBDF28 /* AppDelegate.swift in Sources */,
 			);

@@ -10,10 +10,18 @@ import UIKit
 
 class MyCustomCell: UITableViewCell {
 
+    @IBOutlet weak var unitMeasure: UILabel!
+    @IBOutlet weak var isRunningSwitch: UISwitch!
+    @IBOutlet weak var toolName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         // Initialization code
     }
+    
+    
+    
+    
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
